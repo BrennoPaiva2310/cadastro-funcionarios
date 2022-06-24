@@ -1,0 +1,9 @@
+127.0.0.1 - - [21/Jun/2022:22:46:43 -0300] "GET / HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [21/Jun/2022:22:46:43 -0300] "GET /cadastro/index.html HTTP/1.1" 200 380
+0:0:0:0:0:0:0:1 - - [21/Jun/2022:22:46:43 -0300] "GET /cadastro/style.css HTTP/1.1" 200 1962
+0:0:0:0:0:0:0:1 - - [21/Jun/2022:22:46:43 -0300] "GET /cadastro/imagens/funcionario.png HTTP/1.1" 200 22580
+0:0:0:0:0:0:0:1 - - [21/Jun/2022:22:46:44 -0300] "GET /cadastro/imagens/metaverse.png HTTP/1.1" 200 1911548
+0:0:0:0:0:0:0:1 - - [21/Jun/2022:22:46:44 -0300] "GET /cadastro/imagens/favicon.png HTTP/1.1" 200 7005
+0:0:0:0:0:0:0:1 - - [21/Jun/2022:22:46:46 -0300] "GET /cadastro/main HTTP/1.1" 200 1242
+0:0:0:0:0:0:0:1 - - [21/Jun/2022:22:46:46 -0300] "GET /cadastro/scripts/validador.js HTTP/1.1" 200 1583
+0:0:0:0:0:0:0:1 - - [21/Jun/2022:22:46:51 -0300] "GET /cadastro/delete?idfunc=18 HTTP/1.1" 302 -

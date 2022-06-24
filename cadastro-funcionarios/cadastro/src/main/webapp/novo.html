@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Cadastro de Funcionarios</title>
+<link rel="icon" href="imagens/favicon.png">
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript">
+	
+</script>
+</head>
+<body>
+
+	<div class="formCentralizado">
+
+
+		<h1 class="novo">Criar novo Funcionário</h1>
+		<form action="inserir" name="frmFuncionario">
+			<table>
+				<tr>
+					<td><input type="text" name="nome" placeholder="Nome"
+						class="Caixa1"></td>
+				</tr>
+
+
+				<tr>
+					<td><input id="cpf" type="text" name="cpf" placeholder="CPF"
+						class="Caixa2" maxlength="11"
+						onblur="return verificarCPF(this.value)"></td>
+				</tr>
+
+
+
+				<tr>
+					<td><input type="text" name="telefone" id="telefone"
+						placeholder="Telefone" class="Caixa2"></td>
+				</tr>
+
+
+
+				<tr>
+					<td><input type="text" name="email" placeholder="Email"
+						class="Caixa1"></td>
+				</tr>
+
+
+			</table>
+			<input type="button" value="Adicionar" onclick="validarCampos()">
+		</form>
+
+	</div>
+
+	<script src="scripts/validador.js">
+	
+	
+	
+	
+	
+	</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
